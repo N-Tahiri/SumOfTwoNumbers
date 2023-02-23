@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Summ of two numbers</title>
+    <style>
+      .container {
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        background-color: rgb(233, 238, 179);
+
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 5%;
+      }
+      #input1,
+      #input2 {
+        font-size: 20px;
+      }
+      label {
+        font-size: 24px;
+      }
+      p {
+        font-size: 24px;
+      }
+      #task {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 id="header">
+      This page will help you calculate the sum of two numbers.
+    </h2>
+    <form class="container">
+      <div>
+        <p id="task">Please enter two numbers to calculate the sum:</p>
+        <div id="inputs">
+          <label>Input 1: </label>
+          <input id="input1" value="" />
+          <br /><br />
+          <label>Input 2: </label>
+          <input id="input2" value="" />
+        </div>
+        <br /><br />
+        <h2>The sum is:</h2>
+        <label id="result"></label>
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
